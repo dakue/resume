@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jsonresume-theme-orbit": "^1.0.3",
+    "lessc": "^1.0.2",
+    "puppeteer-cli": "^1.5.1",
+    "resume-cli": "^1.2.8"
+  }
+}

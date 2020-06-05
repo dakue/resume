@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "theme": "orbit"
+  },
+  "basics": {
+    "name": "Daniel Kühne",
+    "label": "DevOps",
+    "image": "https://dakue.github.io/resume/dakue.jpg",
+    "email": "dkhmailto@gmail.com",
+    "website": "https://github.com/dakue",
+    "summary": "My biggest passion is to build infrastructure, pipelines and processes which help others to unleash their full potential. To accomplish this I build environments in IaC on public clouds and on premise. Since 'you never walk alone' I surround myself with great people to achieve great things together.",
+    "location": {
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "dakue",
+        "url": "https://github.com/dakue"
+      },
+      {
+        "network": "Xing",
+        "username": "Daniel_Kuehne24",
+        "url": "https://www.xing.com/profile/Daniel_Kuehne24"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/daniel-kühne-684564180/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "DKB Code Factory GmbH",
+      "position": "Lead Platform Engineer",
+      "website": "https://www.dkbcodefactory.com/",
+      "startDate": "2019-01-01",
+      "summary": "As the first DevOps in the whole DKB group I created and maintained a new development environment for up to 15 development teams. Since this task is to big for just one person I also build and managed a platform team ",
+      "summary": "Working in an up to 7 members platform team, i provided kubernetes clusters and additional tools for to 15 developer teams. I took also 6 months of parental leave in this period.",
+      "highlights": [
+        "Leading development and operations processes inside the team",
+        "Build and managed a team of 8 members",
+	"Developed the technical skill of new joiners in- and outside of my teams",
+        "Introduce a sustainable DevOps culture, eg. through setup of a contributor model to allow developers to contribute infrastructure changes via merge requests",
+        "Founding of a Cloud Working Group ( create and validate governance rules, create technologie templates for AWS services, check for compliance with IT security)",
+        "Design, setup and operate multiple hardened AWS development environments based on Kubernetes and used daily by 100+ users",
+        "Migrate all users and services to the development environments",
+	"SSO for Kubernetes and all platform applications based on Azure AD, eg. GitLab, Grafana, Kibana, …)",
+	"Setup and operate GitLab as repository and CI/CD service for 100+ users",
+	"Participate in the implementation of the corporate governance and an ISMS during the setup of the company internal IT",
+	"Operate the company internal IT"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technische Universität Berlin",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2010-10-01",
+      "endDate": "2012-10-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud Infrastructure",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "EC2",
+        "ELB",
+        "Autoscaling",
+        "S3",
+        "Cloudfront"
+      ]
+    },
+    {
+      "name": "Virtualization",
+      "level": "",
+      "keywords": [
+        "kubernetes",
+        "helm",
+        "docker",
+        "docker-compose",
+        "vagrant"
+      ]
+    },
+    {
+      "name": "Web Server",
+      "level": "",
+      "keywords": [
+        "NGINX",
+        "Reverseproxy",
+        "SSI",
+        "Apache"
+      ]
+    },
+    {
+      "name": "Build and Deployment",
+      "level": "",
+      "keywords": [
+        "GitLab CI",
+        "Concourse CI",
+        "Jenkins",
+        "Bamboo",
+        "Capistrano",
+        "composer",
+        "npm",
+        "grunt"
+      ]
+    },
+    {
+      "name": "Developer",
+      "level": "",
+      "keywords": [
+        "PHP",
+        "Ruby",
+        "Python",
+        "Terraform",
+        "Bash",
+        "Make/Taskfile",
+        "REST",
+        "Javascript",
+        "HTML/CSS",
+        "Java"
+      ]
+    },
+    {
+      "name": "Configuration Management",
+      "level": "",
+      "keywords": [
+        "Ansible",
+	"Chef",
+	"Puppet",
+	"Terraform"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "fluently"
+    }
+  ],
+  "publications": [],
+  "interests": [
+    {
+      "name": "Gardening"
+    },
+    {
+      "name": "Open Source"
+    }
+  ],
+  "references": [],
+  "volunteer": [],
+  "awards": []
+}
