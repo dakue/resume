@@ -39,3 +39,13 @@ resume export -f html -t orbit out/resume.html
 ```
 docker run -it --rm -v $(pwd):/app -w /app node:10 bash -c /app/build.sh
 ```
+
+## for printing
+
+add the following snippet where needed:
+
+```
+<p style="page-break-before:always; height: 10px"></p>
+```
+
+The 10 px are needed because otherwise the paragraph starts directly at the top of the next page since printing is done with no margin.
