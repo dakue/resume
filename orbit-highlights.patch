@@ -1,9 +1,11 @@
---- a/partials/work.hbs	2020-06-04 16:50:17.935000000 +0000
-+++ b/partials/work.hbs	2020-06-04 17:15:45.726858030 +0000
-@@ -13,8 +13,14 @@
+--- a/partials/work.hbs	2020-06-09 09:50:49.909959740 +0000
++++ b/partials/work.hbs	2020-06-09 09:52:56.407857659 +0000
+@@ -12,7 +12,13 @@
+                     <div class="company">{{#if url}}<a href="{{url}}" target="_blank">{{/if}}{{name}}{{#if location}}, {{location}}{{/if}}{{#if url}}</a>{{/if}}</div>
                  </div><!--//meta-->
                  <div class="details">
-                     {{#markdown}}{{summary}}{{/markdown}}
+-                    {{#markdown}}{{summary}}{{/markdown}}
++                    {{#if summary}}{{#markdown}}{{summary}}{{/markdown}}<br/><br/>{{/if}}
 +                    <h4 class="sr-only">Highlights</h4>
 +                    <ul>
 +                        {{#each highlights}}
@@ -13,4 +15,3 @@
                  </div><!--//details-->
              </div><!--//item-->
          {{/resume.work}}
-     </section><!--//section-->
