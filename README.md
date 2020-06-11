@@ -22,7 +22,7 @@ export PATH=$PATH:$(pwd)/node_modules/.bin
 
 cd node_modules/jsonresume-theme-orbit
 patch -p1 < ../../orbit-highlights.patch
-perl -pi -e 's|@sidebar-width: .*|@sidebar-width: 300px|g' assets/less/default/base.less
+perl -pi -e 's|\@sidebar-width: .*|\@sidebar-width: 300px;|g' assets/less/default/base.less
 npm run build:styles:3
 cd ../..
 
