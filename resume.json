@@ -4,11 +4,12 @@
   },
   "basics": {
     "name": "Daniel Kühne",
-    "label": "DevOps",
+    "label": "Lead DevOps",
     "image": "https://dakue.github.io/resume/dakue.jpg",
     "email": "dkhmailto@gmail.com",
-    "website": "https://github.com/dakue",
-    "summary": "My biggest passion is to build infrastructure, pipelines and processes which help others to unleash their full potential. To accomplish this I build environments in IaC on public clouds and on premise. Since 'you never walk alone' I surround myself with great people to achieve great things together.",
+    "website": "https://dakue.github.io/resume",
+    "phone": "+49 174 3295332",
+    "summary": "My biggest passion is to build infrastructure, pipelines and processes which help others to unleash their full potential. To accomplish this, I build environments in IaC on public clouds and on premise. Since 'you never walk alone', I surround myself with great people to achieve great things together.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE"
@@ -22,11 +23,11 @@
       {
         "network": "Xing",
         "username": "Daniel_Kuehne24",
-        "url": "https://www.xing.com/profile/Daniel_Kuehne24"
+        "url": "https://xing.com/profile/Daniel_Kuehne24"
       },
       {
         "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/daniel-kühne-684564180/"
+        "url": "https://linkedin.com/in/daniel-kuehne-berlin"
       }
     ]
   },
@@ -35,20 +36,74 @@
       "company": "DKB Code Factory GmbH",
       "position": "Lead Platform Engineer",
       "website": "https://www.dkbcodefactory.com/",
-      "startDate": "2019-01-01",
-      "summary": "As the first DevOps in the whole DKB group I created and maintained a new development environment for up to 15 development teams. Since this task is to big for just one person I also build and managed a platform team ",
+      "startDate": "2019-11-01",
+      "summary": "As the first DevOps in the whole DKB group I created and maintained a new development environment for up to 15 development teams. Since this task is to big for just one person, I also built and managed a platform team.",
       "highlights": [
-        "Leading development and operations processes inside the team",
-        "Build and managed a team of 8 members",
-	"Developed the technical skill of new joiners in- and outside of my teams",
-        "Introduce a sustainable DevOps culture, eg. through setup of a contributor model to allow developers to contribute infrastructure changes via merge requests",
-        "Founding of a Cloud Working Group ( create and validate governance rules, create technologie templates for AWS services, check for compliance with IT security)",
-        "Design, setup and operate multiple hardened AWS development environments based on Kubernetes and used daily by 100+ users",
-        "Migrate all users and services to the development environments",
-	"SSO for Kubernetes and all platform applications based on Azure AD, eg. GitLab, Grafana, Kibana, …)",
-	"Setup and operate GitLab as repository and CI/CD service for 100+ users",
-	"Participate in the implementation of the corporate governance and an ISMS during the setup of the company internal IT",
-	"Operate the company internal IT"
+        "leading development and operations processes inside the team",
+        "built and managed a team of 8 members",
+        "developed the technical skill of new joiners in- and outside of my teams",
+        "introduce a sustainable DevOps culture, eg. through setup of a contributor model to allow developers to contribute infrastructure changes via merge requests",
+        "founding of a Cloud Working Group ( create and validate governance rules, create technologie templates for AWS services, check for compliance with IT security, setup of AWS organization and accounts)",
+        "design, setup and operate multiple hardened AWS development environments based on Kubernetes and used daily by 100+ users",
+        "migrate all users and services to the development environments",
+        "SSO for Kubernetes and all platform applications based on Azure AD, eg. GitLab, Grafana, Kibana, …",
+        "setup and operate GitLab as repository and CI/CD service for 100+ users",
+	"automate the setup of AWS accounts with SSO IDP and Azure AD groups",
+        "participate in the implementation of the corporate governance and an ISMS during the setup of the company internal IT",
+        "operate the company internal IT",
+	"used technologies - AWS (IAM, EC2, S3, Transit Gateway, NLB, ALB, RDS, CloudFront, Workspaces), Azure AD, Kubernetes, Docker, Helm, Terraform, Ansible, RabbitMQ, Redis, PostgreSQL, Python, GitLab, dex, Prometheus (Operator), Alertmanager, Grafana, ELK, Nginx, Confluence, Jira, Bitbucket, Jenkins"
+      ]
+    },
+    {
+      "company": "A.T.U Auto-Teile-Unger Handels GmbH & Co. KG",
+      "website": "https://www.atu.de",
+      "position": "Lead DevOps Engineer",
+      "startDate": "2016-06-01",
+      "endDate": "2018-10-31",
+      "summary": "My mission was to create a completly new environment for the next generation of services and to support the DevOps culture at A.T.U.   ",
+      "highlights": [
+        "leading development and operations processes inside the team",
+        "built and managed a team of 5 members",
+        "design, create and operate an AWS environment with Ansible for microservices based on Java and PHP",
+        "design and create a microservice platform based on Kubernetes for production, q&a and development stages",
+        "create CI/CD pipelines based on makefile build packs, Ansible, Helm using Concourse CI to deploy to all environments",
+        "create build pack scripts based on make",
+        "setup monitoring and alerting based on Prometheus",
+        "deploy and maintain an ELK stack",
+	"create a Ansible module template to deploy Docker containers using docker-compose as a host service",
+	"used technologies - AWS (IAM, EC2) , Ansible, Terraform, Helm, Kubernetes, Docker, Prometheus, Alertmanager, Grafana, ELK, Apache Kafka, Consul, Redis, Nginx, Concourse CI, Python, Confluence, Jira, Bamboo"
+      ]
+    },
+    {
+      "company": "The unbelievable Machine Company GmbH",
+      "website": "https://www.unbelievable-machine.com",
+      "position": "System Architect Web Operations",
+      "startDate": "2014-09-01",
+      "endDate": "2016-05-31",
+      "summary": "",
+      "highlights": [
+        "design and implement extensions for new and existing customer environments",
+        "consulting for customers in architectur and technologies",
+        "evaluate new technologies and their usage in existing customer environments",
+        "tech lead for a customer with responsibility for up to 5 engineers",
+        "automate the installation of software and servers",
+        "design and implementation of automation for processes",
+	"used technologies - Puppet, Ansible, Nagios, Juniper SRX, Apache Hadoop (Hortonworks, Cloudera), Apache Spark, Elasticsearch, Splunk, Apache Kafka, Mozilla Heka, Zendesk, Jira, Confluence ..."
+      ]
+    },
+    {
+      "company": "notebooksbilliger.de AG",
+      "website": "https://www.notebooksbilliger.de",
+      "position": "Senior IT-Systemadministrator",
+      "startDate": "2013-11-01",
+      "endDate": "2014-08-31",
+      "summary": "",
+      "highlights": [
+        "troubleshooting, maintenance and enhancement of the production and development environments for the online shop and the enterprise server bus (Java based)",
+        "automation of all possible processes",
+	"wrote a Munin plugin for Jolokia",
+        "introduction of new technologies (Solr, Logstash, Puppet, Docker)",
+	"used technologies - Puppet, Solr, Logstash, Docker, CDN, MySQL, PHP-FPM, Jolokia, Nagios, Munin"
       ]
     }
   ],
@@ -63,77 +118,80 @@
   ],
   "skills": [
     {
-      "name": "Cloud Infrastructure",
-      "level": "",
+      "name": "Lead responsibilities",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Motivated",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Passioned",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "master",
       "keywords": [
-        "AWS",
+        "nginx-ingress",
+        "kubespray",
+        "Calico",
+	"kubeadm"
+      ]
+    },
+    {
+      "name": "Helm",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "AWS",
+      "level": "advanced",
+      "keywords": [
+	"IAM",
         "EC2",
-        "ELB",
-        "Autoscaling",
+        "VPC",
+	"Transit Gateway",
         "S3",
-        "Cloudfront"
+        "CloudFront"
       ]
     },
     {
-      "name": "Virtualization",
-      "level": "",
+      "name": "Terraform",
+      "level": "Master",
       "keywords": [
-        "kubernetes",
-        "helm",
-        "docker",
-        "docker-compose",
-        "vagrant"
+        "Terraform modules"
       ]
     },
     {
-      "name": "Web Server",
-      "level": "",
+      "name": "Ansible",
+      "level": "Advanced",
       "keywords": [
-        "NGINX",
-        "Reverseproxy",
-        "SSI",
-        "Apache"
+        "Ansible roles"
       ]
     },
     {
-      "name": "Build and Deployment",
-      "level": "",
+      "name": "CI/CD",
+      "level": "Master",
       "keywords": [
         "GitLab CI",
         "Concourse CI",
         "Jenkins",
-        "Bamboo",
-        "Capistrano",
-        "composer",
-        "npm",
-        "grunt"
+        "Bamboo"
       ]
     },
     {
-      "name": "Developer",
-      "level": "",
-      "keywords": [
-        "PHP",
-        "Ruby",
-        "Python",
-        "Terraform",
-        "Bash",
-        "Make/Taskfile",
-        "REST",
-        "Javascript",
-        "HTML/CSS",
-        "Java"
-      ]
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": []
     },
     {
-      "name": "Configuration Management",
-      "level": "",
-      "keywords": [
-        "Ansible",
-	"Chef",
-	"Puppet",
-	"Terraform"
-      ]
+      "name": "Shell",
+      "level": "Master",
+      "keywords": []
     }
   ],
   "languages": [
@@ -153,6 +211,12 @@
     },
     {
       "name": "Open Source"
+    },
+    {
+      "name": "Conferences / Meetups"
+    },
+    {
+      "name": "Cycling"
     }
   ],
   "references": [],
