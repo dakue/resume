@@ -1,5 +1,15 @@
 # resume
 
+* as [HTML](https://dakue.github.io/resume/out/resume.html)
+
+Best printed with the following settings in Chrome:
+
+* media type screen (Developer Tools -> More Tools -> Rendering -> Emulate Media type -> screen
+* margin top and bottom 1 cm
+* show background grafics
+* scale 75%
+* format A4
+
 ## initial setup
 
 ```
