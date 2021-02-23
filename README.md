@@ -1,6 +1,6 @@
 # resume
 
-* as [PDF](https://dakue.github.io/resume/out/resume.pdf)
+* as [PDF](https://github.com/dakue/resume/raw/master/out/resume.pdf)
 * as [HTML](https://dakue.github.io/resume/out/resume.html)
 
 Best printed with the following settings in Chrome:
