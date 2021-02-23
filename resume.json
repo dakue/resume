@@ -33,25 +33,44 @@
   },
   "work": [
     {
+      "company": "Architrave GmbH",
+      "position": "Engineering manager / Expert SRE",
+      "website": "https://www.architrave.de/",
+      "startDate": "2020-09-01",
+      "summary": "",
+      "highlights": [
+        "leading development and operations processes inside the team",
+        "built and managed a team of 3 experts",
+        "developed the technical skill of new joiners in- and outside of my teams",
+        "introduce a sustainable DevOps culture, e.g. through the setup of an open platform model to allow developers to contribute infrastructure changes via merge requests and the creation of sample applications as best practice examples",
+        "design, setup and operate multiple AWS environments based on EKS and used daily by 20+ users",
+        "introduce a secrets management based on Mozilla Sops and AWS KMS",
+        "consult the decision for a multi tenancy approach including proof of concepts",
+        "automate the setup of AWS accounts with SSO IDP and Gsuite groups",
+        "used technologies - AWS (IAM, EKS, S3, NLB, ALB, RDS, CloudFront, SNS, SQS, API Gateway, Glue, KMS), Gsuite, Kubernetes, Docker, Helm, Terraform, Terragrunt, Ansible, RabbitMQ, Redis, PostgreSQL, Python, GitLab, Prometheus, Alertmanager, Grafana, ELK, Nginx, Confluence, Jira"
+      ]
+    },
+    {
       "company": "DKB Code Factory GmbH",
       "position": "Lead Platform Engineer",
       "website": "https://www.dkbcodefactory.com/",
       "startDate": "2019-11-01",
+      "endDate": "2020-08-31",
       "summary": "As the first DevOps in the whole DKB group I created and maintained a new development environment for up to 15 development teams. Since this task is to big for just one person, I also built and managed a platform team.",
       "highlights": [
         "leading development and operations processes inside the team",
         "built and managed a team of 8 members",
         "developed the technical skill of new joiners in- and outside of my teams",
-        "introduce a sustainable DevOps culture, eg. through setup of a contributor model to allow developers to contribute infrastructure changes via merge requests",
+        "introduce a sustainable DevOps culture, e.g. through setup of a contributor model to allow developers to contribute infrastructure changes via merge requests",
         "founding of a Cloud Working Group ( create and validate governance rules, create technologie templates for AWS services, check for compliance with IT security, setup of AWS organization and accounts)",
         "design, setup and operate multiple hardened AWS development environments based on Kubernetes and used daily by 100+ users",
         "migrate all users and services to the development environments",
         "SSO for Kubernetes and all platform applications based on Azure AD, eg. GitLab, Grafana, Kibana, …",
         "setup and operate GitLab as repository and CI/CD service for 100+ users",
-	"automate the setup of AWS accounts with SSO IDP and Azure AD groups",
+        "automate the setup of AWS accounts with SSO IDP and Azure AD groups",
         "participate in the implementation of the corporate governance and an ISMS during the setup of the company internal IT",
         "operate the company internal IT",
-	"used technologies - AWS (IAM, EC2, S3, Transit Gateway, NLB, ALB, RDS, CloudFront, Workspaces), Azure AD, Kubernetes, Docker, Helm, Terraform, Ansible, RabbitMQ, Redis, PostgreSQL, Python, GitLab, dex, Prometheus (Operator), Alertmanager, Grafana, ELK, Nginx, Confluence, Jira, Bitbucket, Jenkins"
+        "used technologies - AWS (IAM, EC2, S3, Transit Gateway, NLB, ALB, RDS, CloudFront, Workspaces), Azure AD, Kubernetes, Docker, Helm, Terraform, Ansible, RabbitMQ, Redis, PostgreSQL, Python, GitLab, dex, Prometheus (Operator), Alertmanager, Grafana, ELK, Nginx, Confluence, Jira, Bitbucket, Jenkins"
       ]
     },
     {
@@ -70,8 +89,8 @@
         "create build pack scripts based on make",
         "setup monitoring and alerting based on Prometheus",
         "deploy and maintain an ELK stack",
-	"create a Ansible module template to deploy Docker containers using docker-compose as a host service",
-	"used technologies - AWS (IAM, EC2) , Ansible, Terraform, Helm, Kubernetes, Docker, Prometheus, Alertmanager, Grafana, ELK, Apache Kafka, Consul, Redis, Nginx, Concourse CI, Python, Confluence, Jira, Bamboo"
+        "create a Ansible module template to deploy Docker containers using docker-compose as a host service",
+        "used technologies - AWS (IAM, EC2) , Ansible, Terraform, Helm, Kubernetes, Docker, Prometheus, Alertmanager, Grafana, ELK, Apache Kafka, Consul, Redis, Nginx, Concourse CI, Python, Confluence, Jira, Bamboo"
       ]
     },
     {
@@ -88,7 +107,7 @@
         "tech lead for a customer with responsibility for up to 5 engineers",
         "automate the installation of software and servers",
         "design and implementation of automation for processes",
-	"used technologies - Puppet, Ansible, Nagios, Juniper SRX, Apache Hadoop (Hortonworks, Cloudera), Apache Spark, Elasticsearch, Splunk, Apache Kafka, Mozilla Heka, Zendesk, Jira, Confluence ..."
+        "used technologies - Puppet, Ansible, Nagios, Juniper SRX, Apache Hadoop (Hortonworks, Cloudera), Apache Spark, Elasticsearch, Splunk, Apache Kafka, Mozilla Heka, Zendesk, Jira, Confluence ..."
       ]
     },
     {
@@ -101,9 +120,9 @@
       "highlights": [
         "troubleshooting, maintenance and enhancement of the production and development environments for the online shop and the enterprise server bus (Java based)",
         "automation of all possible processes",
-	"wrote a Munin plugin for Jolokia",
+        "wrote a Munin plugin for Jolokia",
         "introduction of new technologies (Solr, Logstash, Puppet, Docker)",
-	"used technologies - Puppet, Solr, Logstash, Docker, CDN, MySQL, PHP-FPM, Jolokia, Nagios, Munin"
+        "used technologies - Puppet, Solr, Logstash, Docker, CDN, MySQL, PHP-FPM, Jolokia, Nagios, Munin"
       ]
     }
   ],
@@ -139,7 +158,7 @@
         "nginx-ingress",
         "kubespray",
         "Calico",
-	"kubeadm"
+        "kubeadm"
       ]
     },
     {
@@ -151,10 +170,10 @@
       "name": "AWS",
       "level": "advanced",
       "keywords": [
-	"IAM",
+        "IAM",
         "EC2",
         "VPC",
-	"Transit Gateway",
+        "Transit Gateway",
         "S3",
         "CloudFront"
       ]

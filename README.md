@@ -1,5 +1,6 @@
 # resume
 
+* as [PDF](https://dakue.github.io/resume/out/resume.pdf)
 * as [HTML](https://dakue.github.io/resume/out/resume.html)
 
 Best printed with the following settings in Chrome:
@@ -68,10 +69,12 @@ resume serve --resume ../../resume.json
 
 ## for printing
 
-add the following snippet where needed:
+To print the resume I used the following settings in the Chrome print dialog:
 
-```
-<p style="page-break-before:always; height: 10px"></p>
-```
+![Print dialog settings](https://github.com/dakue/resume/raw/master/resume_print_dialog.png "Print dialog settings")
 
-The 10 px are needed because otherwise the paragraph starts directly at the top of the next page since printing is done with no margin.
+Apart from that you also need to set the media type to `screen` in the "Rendering" tab of the Dev tools. See [here](https://developers.google.com/web/tools/chrome-devtools/css/print-preview) how to accomplish this.
+
+![CSS media type](https://github.com/dakue/resume/raw/master/resume_css_media_type.png "CSS media type")
+
+
