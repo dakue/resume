@@ -14,7 +14,7 @@ Best printed with the following settings in Chrome:
 ## initial setup
 
 ```
-docker run -it --rm -v $(pwd):/app -w /app node:10 bash
+docker run -it --rm -v $(pwd):/app -w /app node:14.18.0-buster bash
 
 echo "{}" > package.json
 npm install resume-cli --save
@@ -26,7 +26,7 @@ npm install lessc --save
 ## build resume (long)
 
 ```
-docker run -it --rm -v $(pwd):/app -w /app node:10 bash
+docker run -it --rm -v $(pwd):/app -w /app node:14.18.0-buster bash
 
 npm install
 export PATH=$PATH:$(pwd)/node_modules/.bin
@@ -48,13 +48,13 @@ resume export -f html -t orbit out/resume.html
 ## build resume (short)
 
 ```
-docker run -it --rm -v $(pwd):/app -w /app node:10 bash -c /app/build.sh
+docker run -it --rm -v $(pwd):/app -w /app node:14.18.0-buster bash -c /app/build.sh
 ```
 
 ## serve resume (long)
 
 ```
-docker run -it --rm -p 4000:4000 -v $(pwd):/app -w /app node:10 bash
+docker run -it --rm -p 4000:4000 -v $(pwd):/app -w /app node:14.18.0-buster bash
 
 npm install
 export PATH=$PATH:$(pwd)/node_modules/.bin
