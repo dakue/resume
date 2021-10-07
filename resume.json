@@ -4,7 +4,7 @@
   },
   "basics": {
     "name": "Daniel Kühne",
-    "label": "Lead DevOps",
+    "label": "Platform and Cloud engineer",
     "image": "https://dakue.github.io/resume/dakue.jpg",
     "email": "dkhmailto@gmail.com",
     "website": "https://dakue.github.io/resume",
@@ -33,10 +33,29 @@
   },
   "work": [
     {
+      "company": "sennder GmbH",
+      "position": "Staff Platform Engineer",
+      "website": "https://www.sennder.com/",
+      "startDate": "2021-05-01",
+      "summary": "I joined sennder in its hypergrowth phase and together with the rest of the platform team (4 people) my mission was to advocate my knowledge throughout engineering (approx. 200 people) by:",
+      "highlights": [
+        "creating a migration strategy and technical research and development to move the VPCs to a new CIDR range inlcuding options for zero downtime",
+        "introducing of a CI template library for platform related GitLab jobs",
+        "regular hosting of the DevOps community of practice including the creation of a quiz and the organization of the event",
+        "founding and participating in a working group to create an onboarding workshop including the first deployment of a frontend and a backend with the focus on developer experience, CI/CD and the platform",
+        "participating in an initiative to create a platform product including user interviews and priotization",
+        "participating in a working group to build the next generation authentication and authorization including the move to a new user directory with the focus on interoperability and developer experience",
+        "participating in a working group to build the next generation microservices and move away from a monolith with the focus on developer experience",
+        "participating in the architecture board to create a catalogue of validated blueprints",
+        "used technologies - AWS (IAM, EKS, ECS, S3, NLB, ALB, RDS, DocumentDB, CloudFront, SNS, SQS, API Gateway, KMS, Lambda, Database Migration Services, Control Tower, SSO), Gsuite, Auth0, Kubernetes, Docker, Helm, Terraform, Redis, PostgreSQL, Python, GitLab, SonarQube, Datadog, Opsgenie, Confluence, Jira, Asana, Productboard, Jellyfish"
+      ]
+    },
+    {
       "company": "Architrave GmbH",
       "position": "Engineering manager / Expert SRE",
       "website": "https://www.architrave.de/",
       "startDate": "2020-09-01",
+      "endDate": "2021-04-30",
       "summary": "",
       "highlights": [
         "leading development and operations processes inside the team",
