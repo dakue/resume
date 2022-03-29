@@ -3,14 +3,6 @@
 * as [PDF](https://github.com/dakue/resume/raw/master/out/resume.pdf)
 * as [HTML](https://dakue.github.io/resume/out/resume.html)
 
-Best printed with the following settings in Chrome:
-
-* media type screen (Developer Tools -> More Tools -> Rendering -> Emulate Media type -> screen
-* margin top and bottom 1 cm
-* show background grafics
-* scale 75%
-* format A4
-
 ## initial setup
 
 ```
@@ -69,7 +61,14 @@ resume serve --resume ../../resume.json
 
 ## for printing
 
-To print the resume I used the following settings in the Chrome print dialog:
+To print the resume the patch `resume_patch.patch` needs to be applied to the resume.html:
+
+```
+cd out
+patch -p0 resume.html < ../resume_print.patch
+```
+
+Apart from that I used the following settings in the Chrome print dialog:
 
 ![Print dialog settings](https://github.com/dakue/resume/raw/master/resume_print_dialog.png "Print dialog settings")
 
