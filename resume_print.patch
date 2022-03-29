@@ -1,0 +1,29 @@
+--- resume.html.new	2022-03-29 13:43:10.671900554 +0200
++++ resume.html	2022-03-29 13:55:23.438006543 +0200
+@@ -430,7 +430,7 @@
+                             </ul>
+                         </div><!--//details-->
+                     </div><!--//item-->
+-                    <div class="item">
++                    <div class="item" style="page-break-before: always; padding-top: 10px">
+                         <div class="meta">
+                             <div class="upper-row">
+                                 <h3 class="job-title">Engineering manager / Expert SRE</h3>
+@@ -507,7 +507,7 @@
+                             </ul>
+                         </div><!--//details-->
+                     </div><!--//item-->
+-                    <div class="item">
++                    <div class="item" style="page-break-before: always; padding-top: 10px">
+                         <div class="meta">
+                             <div class="upper-row">
+                                 <h3 class="job-title">System Architect Web Operations</h3>
+@@ -557,7 +557,7 @@
+         
+             <section class="skills-section section">
+                 <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+-                <div class="skillset">
++                <div class="skillset" style="padding-bottom: 50px">
+                         <div class="item">
+                             <h3 class="level-title">Lead responsibilities</h3>
+                             <div class="level-bar">

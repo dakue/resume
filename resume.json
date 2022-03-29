@@ -33,9 +33,25 @@
   },
   "work": [
     {
+      "company": "XCNT GmbH",
+      "position": "DevOps Engineer",
+      "website": "https://www.sennder.com/",
+      "startDate": "2022-01-01",
+      "summary": "I'm not working directly for XCNT but for one of the Spin-Offs DRIVR which is an IOT platform. There I'm part of the core team responsible for the development and operation of the platform on different clouds and for different customers.",
+      "highlights": [
+        "refactoring of the release pipeline to use GitOps with ArgoCD and the app of apps pattern",
+	"creating of a developer cloud using a root server and Opennebula including IaC, dynamic Envoy ingress configuration and pull request workflow to include changes",
+	"improving the developer expierence by creating self service environments for the development of DRIVR and establishing an internal developer platform",
+	"introducing an ADR process using MADR templates",
+	"evaluating a data aggregation service using Thanos as datastore",
+	"used technologies - Google Cloud (GCP, IAM, Compute Engine Networks), Azure (AKS, Networks), Opennebula, Talos Linux, Kubernetes, Docker, Helm, ArgoCD, GitOps, Envoy, Crossplane, TimescaleDB, CockroachDB, Kafka, EMQX, Redis, TiKV, Jaeger, Prometheus, Sentry, Jira, Notion, Slack, Figma, Miro"
+      ]
+    },
+    {
       "company": "sennder GmbH",
       "position": "Staff Platform Engineer",
       "website": "https://www.sennder.com/",
+      "endDate": "2021-12-31",
       "startDate": "2021-05-01",
       "summary": "I joined sennder in its hypergrowth phase and together with the rest of the platform team (4 people) my mission was to advocate my knowledge throughout engineering (approx. 200 people) by:",
       "highlights": [
@@ -65,7 +81,7 @@
         "design, setup and operate multiple AWS environments based on EKS and used daily by 20+ users",
         "introduce a secrets management based on Mozilla Sops and AWS KMS",
         "consult the decision for a multi tenancy approach including proof of concepts",
-        "automate the setup of AWS accounts with SSO IDP and Gsuite groups",
+        "automate the setup of AWS accounts in an AWS organizations with SSO IDP and Gsuite groups",
         "used technologies - AWS (IAM, EKS, S3, NLB, ALB, RDS, CloudFront, SNS, SQS, API Gateway, Glue, KMS), Gsuite, Kubernetes, Docker, Helm, Terraform, Terragrunt, Ansible, RabbitMQ, Redis, PostgreSQL, Python, GitLab, Prometheus, Alertmanager, Grafana, ELK, Nginx, Confluence, Jira"
       ]
     },
