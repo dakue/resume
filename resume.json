@@ -33,6 +33,13 @@
   },
   "work": [
     {
+      "company": "Soda Data NV",
+      "position": "Senior Infrastructure Engineer",
+      "website": "https://www.soda.io",
+      "startDate": "2022-06-01",
+      "summary": "At Soda I'm working on the core infrastructure and the CI pipelines for the SAAS offering Soda Cloud. But lately I spend most of my days developing the Soda Agent which is job runner for Soda releated tasks within the customer infrastructure running on Kubernetes. Also I support the customer engineering team with all questions around the setup of Kubernetes and the Soda Agent in the customer environments"
+    },
+    {
       "company": "Stealth",
       "position": "DevOps Engineer",
       "website": "stealth",
